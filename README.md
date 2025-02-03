@@ -1,31 +1,47 @@
-
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
-
-#  Clima
-
-## Our Goal
-
-It’s time to take our app development skills to the next level. We’re going to introduce you to the wonderful world of Application Programming Interfaces (APIs) to grab live data from the internet. If you’re dreaming of making that Twitter-powered stock trading app then you’re about add some serious tools to your toolbelt!
+**Clima - Weather App 🌤️**
 
 
-## What you will create
+**Overview**
 
-By the end of the module, you will have made a beautiful, dark-mode enabled weather app. You'll be able to check the weather for the current location based on the GPS data from the iPhone as well as by searching for a city manually. 
+Clima is a sleek, dark-mode enabled weather application designed to provide real-time weather information. 
+Using GPS data from your iPhone, Clima delivers up-to-date weather conditions for your current location and allows users to manually search for weather details in any city worldwide.
 
-## What you will learn
 
-* How to create a dark-mode enabled app.
-* How to use vector images as image assets.
-* Learn to use the UITextField to get user input. 
-* Learn about the delegate pattern.
-* Swift protocols and extensions. 
-* Swift guard keyword. 
-* Swift computed properties.
-* Swift closures and completion handlers.
-* Learn to use URLSession to network and make HTTP requests.
-* Parse JSON with the native Encodable and Decodable protocols. 
-* Learn to use Grand Central Dispatch to fetch the main thread.
-* Learn to use Core Location to get the current location from the phone GPS. 
+**Features**
+
+🌍 Real-Time Weather Data: Get accurate, live weather information.
+
+📍 Location-Based Weather: Automatically fetch weather details for your current location using GPS.
+
+🔍 City Search: Manually search and display weather information for any city.
+
+🌑 Dark Mode: User-friendly dark mode interface for a sleek appearance and reduced eye strain.
+
+
+**Technologies Used**
+
+- Swift: Core programming language.
+
+- UIKit: Building user interfaces.
+
+- CoreLocation: For accessing GPS data.
+
+- URLSession: For API requests.
+
+- OpenWeatherMap API: Fetch real-time weather data.
+
+- Dark Mode Compatibility: Supports iOS dark mode for better user experience.
+
+
+**Prerequisites**
+
+- macOS with Xcode installed.
+
+- An active internet connection for fetching live data.
+
+- API Key from OpenWeatherMap.
+
+
 
 ### Condition Codes
 ```
@@ -49,6 +65,4 @@ switch conditionID {
         }
 ```
 
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
 
-![End Banner](Documentation/readme-end-banner.png)
