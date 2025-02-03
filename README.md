@@ -43,7 +43,7 @@ Using GPS data from your iPhone, Clima delivers up-to-date weather conditions fo
 
 
 
-### Condition Codes
+**### Condition Codes**
 ```
 switch conditionID {
         case 200...232:
