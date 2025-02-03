@@ -40,3 +40,7 @@ Using GPS data from your iPhone, Clima delivers up-to-date weather conditions fo
 - An active internet connection for fetching live data.
 
 - API Key from OpenWeatherMap.
+
+
+
+
